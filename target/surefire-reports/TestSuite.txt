@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 22.659 s <<< FAILURE! - in TestSuite
+ClickOnViewAccountDetailsTest(Tests.HomePageTest)  Time elapsed: 0.671 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: #id\=ember1257
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-UBK0CNB', ip: '192.168.2.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220411174855, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 18780, moz:profile: C:\Users\Tejas\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ae7ad530-1340-4c44-93f0-d4c09d10a2c9
+*** Element info: {Using=id, value=id=ember1257}
+	at Tests.HomePageTest.ClickOnViewAccountDetailsTest(HomePageTest.java:40)
+
